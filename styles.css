@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #fb6bdc;
     padding: 10px;
     color: white;
 }
@@ -27,6 +27,17 @@ nav ul li a {
 }
 
 main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column; /* Susun elemen dalam satu kolom */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    justify-content: center; /* Jika ingin berada di tengah secara vertikal */
+    text-align: center; /* Rata tengah teks */
+    max-width: 400px; /* Batasi lebar konten agar tidak terlalu melebar */
+    margin: auto; /* Pusatkan section di tengah */
     padding: 20px;
 }
 
