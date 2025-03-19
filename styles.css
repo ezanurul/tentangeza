@@ -3,14 +3,22 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #FAF3E0; /* Warna pastel lembut */
+    background-color: #FAF3E0; 
     color: #4A4A4A;
 }
 
+img {
+    width: 150px; 
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
 header {
-    background-color: #FFB6C1; /* Pink pastel */
+    background-color: #FFB6C1; 
     padding: 15px;
-    color: #8B0000; /* Warna merah tua yang lebih menonjol */
+    color: #8B0000; 
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -35,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF69B4; /* Warna hover */
+    color: #FF69B4; 
 }
 
 main {
@@ -51,14 +59,14 @@ section {
     max-width: 500px;
     margin: auto;
     padding: 20px;
-    background-color: #FFF5E1; /* Warna pastel */
+    background-color: #FFF5E1; 
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     background-color: #FFB6C1;
-    color: #8B0000; /* Warna merah tua untuk kontras lebih baik */
+    color: #8B0000; 
     padding: 15px;
     position: fixed;
     bottom: 0;
