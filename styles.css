@@ -6,6 +6,16 @@ body {
     background-color: #FAF3E0; 
     color: #4A4A4A;
     overflow: auto;
+    min-height: 150vh;
+}
+
+.profil-img {
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    width: auto; /* atau sesuaikan dengan max-width */
+    max-width: 100%; /* agar responsif */
+    height: auto;
 }
 
 img {
@@ -54,6 +64,8 @@ nav ul li a:hover {
 
 main {
     padding: 30px;
+    min-height: 80vh;
+    padding-bottom: 300px;
 }
 
 section {
